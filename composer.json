@@ -16,8 +16,13 @@
         }
     ],
     "require": {
-        "zf-commons/zfc-user": "1.*"
+        "zf-commons/zfc-user": "dev-lang"
     },
+    "repositories" : [ 
+  	{
+        "type":"vcs",
+        "url":"https://github.com/Voodoo773/ZfcUser"
+    }],
     "autoload": {
         "psr-0": {
             "GoalioRememberMe": "src/"
